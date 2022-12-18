@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "gnunez-custom-components": "^1.0.2",
+    "gnunez-custom-components": "^1.0.3",
     "vue": "^3.2.45"
   },
   "devDependencies": {

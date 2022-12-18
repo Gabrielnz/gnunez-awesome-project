@@ -1,5 +1,10 @@
 import { createApp } from 'vue'
+import Components from 'gnunez-custom-components'
 import './style.css'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+app.component('HelloWorldVuetify', Components.HelloWorldVuetify)
+app.component('HelloWorldTailwind', Components.HelloWorldTailwind)
+
+app.mount('#app')
